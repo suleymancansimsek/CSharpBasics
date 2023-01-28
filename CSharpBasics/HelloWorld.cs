@@ -1,8 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+
 namespace CSharpBasics
 {
-    class Program
+    class HelloWorld
     {
         static void Main(string[] args)
         {
