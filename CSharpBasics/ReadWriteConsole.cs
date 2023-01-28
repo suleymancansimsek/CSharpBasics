@@ -1,5 +1,7 @@
-﻿namespace CSharpBasics
+﻿/*
+namespace CSharpBasics
 {
+    
     class ReadWriteConsole
     {
         static void Main(string[] args)
@@ -14,3 +16,4 @@
         }
     }
 }
+*/
