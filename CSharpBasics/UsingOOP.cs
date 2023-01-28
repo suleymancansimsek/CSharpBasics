@@ -4,6 +4,16 @@
     {
         static void Main(string[] args)
         {
+            Movie movie1 = new Movie("The Avengers","Joss Whedon","PG-13");
+            Movie movie2 = new Movie("Shrek","Adam Adamson","blabla");
+
+            Console.WriteLine(movie1.Rating);
+            Console.WriteLine(movie2.Rating);
+
+            movie2.Rating = "G";
+            Console.WriteLine(movie2.Rating);
+            Console.WriteLine("total Movies: " + Movie.movieCount);
+
             Student student1 = new Student("Suleyman","Computer Science", 2.7);
             Student[] students= new Student[2]; 
 
@@ -24,7 +34,7 @@
             {
                 Console.WriteLine(
                     "name: " + student.name + " " +
-                    "major:" + student.major + " " +
+                    "major: " + student.major + " " +
                     "gpa: " + student.gpa
                     ); ; ;
             }
@@ -39,7 +49,7 @@
             Console.WriteLine(book2.title);
 
 
-            /*
+            
             Enemy warrior = new Enemy(Enemy.Type.WARRIOR, 100, 20);
             Enemy archer = new Enemy(Enemy.Type.ARCHER, 80, 25);
             Enemy witch = new Enemy(Enemy.Type.WITCH, 60, 30);
@@ -54,7 +64,7 @@
             Console.WriteLine("{0} has {1} health left", archer.EnemyType, archer.Health);
 
             Console.ReadKey();
-            */
+            
         }
     }
 }
